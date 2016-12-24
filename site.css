@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #1c9a00;
+    color: #F1F5F8;
+    background-color:#1c9a00;
+}
+
+*{
+    margin: 0 auto 0 auto;
+    text-align:left;
+}
+
+html, body {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+header{
+    background-image:url("../images/header.png");
+    background-repeat:no-repeat;
+    height:110px;
+    width:750px;
+}
+
+header .logo{
+    position:relative;
+    left: 200px;
+    top:18px;
+}
+
+#page{
+    margin: 0 auto 0 auto;
+    display: block;
+    height:auto;
+    position: relative;
+    overflow: hidden;
+    background: url("../Images/background.png") repeat-y;
+    width: 738px;
+}
+
+nav {
+    background-image:url("../images/bar.png");
+    background-repeat:no-repeat;
+    height:55px;
+    width:750px;
+    line-height:55px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+nav .lien{
+    float:left;
+    height:55px;
+}
+
+nav .lien:hover{
+    background-image:url("../images/linkrollover.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+nav a{
+    font-size:14px;
+    font-weight:bold;
+    color:#ffffff;
+    margin-left:27px;
+    margin-right:27px;
+    text-decoration:none;
+    border-bottom:2px solid #ffffff;
+}
+
+nav a:hover{
+    color:#FF0000;
+    text-decoration:none;
+    border-bottom:2px solid #FF0000;
+}
+
+.text {
+    width:680px;
+    padding-top: 40px;
+    padding-left:35px;
+    padding-right:35px;
+    font-size:15px;
+    color:#030712;
+    line-height:30px;
+}
+
+.form{
+    color: black;
+    width: 680px;
+}
+
+#footer {
+    width: 738px;
+    height:53px;
+    background: url("../images/footer.png") no-repeat;
+    text-align:center;
+    font-size:9px;
+    color:#2A2A2A;
+    padding-top:25px;
+}
+
+
+#img1{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 307px;
+    background-color: #FF0000;
+    position: fixed;
+    left: 0px;
+    bottom: 200px;
+}
+
+#img1 ul{
+    top:20px;
+    list-style: none inside;
+}
+
+
+#img2{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    width: 250px;
+    height: 307px;
+    background-color: #FF0000;
+    position: fixed;
+    right: 0px;
+    bottom: 200px;
+}
+
+#img2 ul{
+    top:20px;
+    list-style: none inside;
+}
+
+img:hover{
+    width: 215px;
+}
